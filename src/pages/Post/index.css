@@ -1,0 +1,14 @@
+.comment-container {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.comment__header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.comment__description {
+    margin-top: 12px;
+}

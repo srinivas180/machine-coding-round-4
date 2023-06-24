@@ -1,9 +1,16 @@
+import { Route, Routes } from "react-router";
+
+import { Home } from "./pages/Home";
+import { Post } from "./pages/Post";
 import "./App.css";
 
 function App() {
     return (
         <div className="App">
-            <h1>Hello World</h1>
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/post/:postId" element={<Post />} />
+            </Routes>
         </div>
     );
 }
